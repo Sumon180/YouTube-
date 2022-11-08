@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainsection {
+  position: absolute;
+  /* background: green; */
+  top: 118px;
+  left: 81px;
+  right: 0px;
+}
+.mainsection ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainsection ul li {
+  position: relative;
+}
+
+.mainsection li {
+  position: absolute;
+  /* background: red; */
+  margin: 10px;
+  width: 296px;
+  height: 280px;
+}
+.mainsection ul li video {
+  width: 100%;
+}
+.mainsection .para {
+  display: flex;
+  margin-top: 10px;
+}
+.mainsection .para img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.mainsection .para .courtesyverify {
+  margin-left: 15px;
+  font-family: Roboto, Arial, sans-serif;
+}
+.mainsection .para .courtesyverify .courtesy {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #fff;
+}
+.mainsection .para .courtesyverify .chennel {
+  color: #929191;
+  display: flex;
+}
+.mainsection .para .courtesyverify .chennel span {
+  width: 12px;
+  height: 12px;
+  background: rgb(104, 104, 104);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.mainsection .para .courtesyverify svg {
+  font-size: 11px;
+}

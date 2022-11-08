@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.topNavbar {
+  background-color: #202020;
+  position: fixed;
+  display: inline-block;
+  z-index: 222;
+  width: 100%;
+}
+.bg-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+  margin: 0 21px;
+}
+.first-item,
+.middel-item,
+.last-item,
+.logo,
+.serchinput {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.first-item,
+.last-item {
+  gap: 20px;
+}
+
+.first-item svg,
+.last-item svg {
+  font-size: 30px;
+}
+.first-item .logo svg {
+  color: #ff0000;
+  font-size: 35px;
+}
+.first-item .ytpara {
+  position: relative;
+  font-size: 20px;
+  font-family: Roboto, Arial, sans-serif;
+}
+.first-item .ytpara span {
+  position: absolute;
+  font-size: 11px;
+  top: -10px;
+}
+.searchinput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  height: 40px;
+  padding: 1px;
+  border-radius: 20px;
+  background: #313131ed;
+}
+.searchinput svg {
+  margin-right: 10px;
+}
+.searchin {
+  width: 530px;
+  height: 100%;
+  border: none;
+  background: #121212;
+  padding: 0 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.searchin::placeholder {
+  font-size: 16px;
+}
+.middel-item .speaker svg {
+  padding: 8px;
+  margin-left: 5px;
+  background: #121212;
+  border-radius: 50%;
+  font-size: 41px;
+}
+
+.last-item span {
+  text-align: center;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #cc0000;
+  border-radius: 50%;
+}

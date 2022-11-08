@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainside {
+  text-align: center;
+  position: fixed;
+  padding: 0 5px;
+  padding-top: 12px;
+  background: #202020;
+  height: 100vh;
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 10px;
+  top: 54px;
+  z-index: 333;
+  font-family: Roboto, Arial, sans-serif;
+}
+.home {
+  margin-bottom: 40px;
+}

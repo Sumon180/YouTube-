@@ -1,0 +1,59 @@
+.recentsearch {
+  position: fixed;
+
+  top: 58px;
+  right: 0px;
+  left: 75px;
+  z-index: 1000;
+  background: #202020;
+  color: #fff;
+  border-top: 1px solid #464545;
+  border-bottom: 1px solid #464545;
+
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: space-between; */
+}
+.container2 ul {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, Arial, sans-serif;
+  list-style: none;
+  overflow: hidden;
+}
+.recentview {
+  margin: 10px;
+  padding: 6px 17px;
+  border-radius: 20px;
+  border: 1px solid rgb(131, 129, 129);
+  background: #313131ed;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: space-between;
+}
+.recentview:hover {
+  background: #474747ed;
+}
+.backarrow,
+.forwardarrow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #202020;
+  height: 100%;
+  padding: 0 15px;
+}
+.backarrow {
+  box-shadow: 12px 0px 6px #202020;
+}
+.forwardarrow {
+  position: absolute;
+  right: 0px;
+  top: 0%;
+  box-shadow: -14px 0px 6px #202020;
+}
