@@ -1,2 +1,4 @@
 # YouTube-
-With React
+With React  
+npm install  
+npm run dev
